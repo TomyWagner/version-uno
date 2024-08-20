@@ -1,0 +1,30 @@
+.workspace-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    background-color: #1C1C1A;
+    color: #FFFFFF;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      flex-direction: row;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+    }
+  }
+  

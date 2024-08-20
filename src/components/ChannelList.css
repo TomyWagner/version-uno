@@ -1,0 +1,43 @@
+.channel-list {
+    background-color: #1a1a1a;
+    color: #FFFFFF;
+    padding: 1em 1em 0 2em;
+    flex-basis: 20%;
+    max-width: 15em;
+  }
+  
+  .channel-list h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .channel-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .channel-list li {
+    margin: 0.5em 0;
+    cursor: pointer;
+    color: #DE4E15;
+  }
+  
+  .channel-list li:hover {
+    text-decoration: underline;
+  }
+  
+  .add-channel-btn {
+    background-color: #DE4E15;
+    color: #FFFFFF;
+    padding: 0.75em;
+    border: none;
+    border-radius: 0.25em;
+    width: 100%;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+  
+  .add-channel-btn:hover {
+    background-color: #FF6B3A;
+  }
+  
